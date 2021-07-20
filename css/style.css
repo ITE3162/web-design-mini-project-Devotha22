@@ -1,0 +1,144 @@
+body{
+    background-image: url("image/backg2.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 150vh;
+}
+nav{
+    background: rgb(2, 43, 19);
+    height: 5vh;
+    width: 100%;
+    padding: 10px;
+}
+nav a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0px 15px 0px 50px;
+float: right;
+color:white;
+}
+nav a:hover{
+    
+}
+ nav img{
+     height: 7vh;
+     border-radius: 50px;
+ }
+ .container{
+     height: 130vh;
+     width: 100%;
+     background: none;
+
+     display:flex;
+ }
+ .category{
+     background:rgb(6, 59, 57);
+     border: rgb(16, 153, 78) 10px ;
+     border-radius: 50px;
+     height: 40%;
+     width: 30%;
+     font-size: 25px;
+     list-style: none;
+     margin: 20px 20px 20px 40px;
+     padding-left: 30px;
+     color:white;
+ }
+ .category :hover{
+     background: teal;
+     cursor: pointer;
+ }
+
+ .category img{
+     height: 7vh;
+     border-radius: 50px;
+     color: white;
+ }
+ .back{
+    
+     background: none;
+    
+ }
+ .back img{
+     height: 15vh;
+     border-radius: 30px;
+ }
+ .content {
+    height: 80%;
+    width: 80%;
+    background: none;
+    padding-left: 40px;
+    line-height: 50px;
+    font-size: 25px;
+    list-style-type: square;
+ }
+ .content img{
+     height: 7vh;
+     border-radius: 50px;
+ }
+ .last{
+     background: rgb(6, 100, 61);
+     height:20vh ;
+     width: 100%;
+     display: flex;
+ }
+ .last img{
+     height: 5vh;
+     padding: 50px;
+ }
+ h1{
+     padding: 20px;
+     padding-left: 40px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     font-size: 30px;
+ }
+ .devo{
+     width: 100%;
+     height: 100%;
+ }
+ .contactcontent{
+     width: 100%;
+     height: 110vh;
+     margin-left: 500px;
+     margin-right: 100px;
+     margin-right: 100px;
+     margin-top: 100px;
+     color: aliceblue;
+ }
+ .contactcontent img{
+     height: 7vh;
+ }
+.card{
+    background: rgb(2, 43, 19);
+    width: 40%;
+    border-radius: 30px;
+    color: ivory;
+}
+button{
+margin: 0px 50px 0 50px;
+background: black;
+color: white;
+}
+button:hover{
+    background: rgb(1, 32, 4);
+    cursor: pointer;
+}
+.aboutcont{
+    width: 100%;
+    height: 110vh;
+    display:flex;
+    color:white;
+    font-size: 20px;
+}
+}
+table{
+    color: black;
+    border: black;
+}
+tr{
+
+    color: black;
+}
+td{
+    border: black solid;
+}
