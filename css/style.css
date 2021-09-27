@@ -1,5 +1,5 @@
 body{
-    background-image: url("image/backg2.jpg");
+    background-image:url('../images/backg2.jpg');
     background-size:cover;
     background-repeat:no-repeat;
     height: 150vh;
@@ -141,4 +141,24 @@ tr{
 }
 td{
     border: black solid;
+}
+fieldset{
+    background: rgb(21, 37, 21);
+    width: 200px;
+    height: 300px;
+    margin: 100px 100px 10px 500px;
+    border-radius: 30px;
+}
+form{
+    padding: 10px;
+    border-radius: 20px;
+    color: honeydew;
+}
+input{
+    border-radius: 10px;
+    padding: 5px;
+}
+form button{
+    border-radius: 10px;
+    padding: 10px;
 }
